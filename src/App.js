@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import './App.css';
-//component imports
+//component imports 
 import Form from "./components/Form";
 import TodoList from "./components/TodoList"; 
 
 function App() {
+  const [inputText, setInputText] = useState("")
   return (
     <div className="App">
       <header>
@@ -17,3 +18,4 @@ function App() {
 }
 
 export default App;
+//we can use const or an arrow function in the same m anner
