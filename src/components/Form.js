@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Form = () => {
-  //js function
+  //js function text handler and target value cosolelog
   const inputTextHandler = (e) => {
     console.log(e.target.value)
   };
