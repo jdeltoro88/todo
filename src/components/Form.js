@@ -3,8 +3,8 @@ import React from 'react'
 const Form = () => {
   //js function
   const inputTextHandler = (e) => {
-    console.log(e)
-  }
+    console.log(e.target.value)
+  };
   return (
     <form>
       <input onClick={inputTextHandler} type="text" className="todo-input" />
