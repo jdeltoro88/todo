@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Form = () => {
-  //js function
+const Form = ({ setInputText }) => {
+  //js function text handler and target value cosolelog
   const inputTextHandler = (e) => {
-    console.log(e)
-  }
+    //console.log(e.target.value)  
+    setInputText(e.target.value);
+  };
   return (
     <form>
       <input onClick={inputTextHandler} type="text" className="todo-input" />
