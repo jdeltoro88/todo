@@ -26,4 +26,4 @@ function App() {
 }
 
 export default App;
-//we can use const or an arrow function in the same m anner
+//we can use const or an arrow function in the same manner
